@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1070751518126",
+    "project_id": "bodeguitaapp-bc029",
+    "storage_bucket": "bodeguitaapp-bc029.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070751518126:android:3e7a59ef29546706b7cc3f",
+        "android_client_info": {
+          "package_name": "com.example.tienda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070751518126-6u9814g5nf6l7pve9gd3tfda9cikje3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJGPRC4aJI_AFpNBWUBO3LdAKflCIVGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070751518126-6u9814g5nf6l7pve9gd3tfda9cikje3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

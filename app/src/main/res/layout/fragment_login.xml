@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Login.RegistrarFragment">
+
+    <LinearLayout
+        android:id="@+id/linearpart1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fragment_loguear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="255dp"
+                android:layout_marginStart="145dp"
+                android:textSize="20dp"
+                android:text="Iniciar Sesión"
+                android:fontFamily="fantasy"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"/>
+
+            <EditText
+                android:id="@+id/usuarioIngresar"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="310dp"
+                android:ems="10"
+                android:fontFamily="fantasy"
+                android:drawableLeft="@drawable/usuario"
+                android:hint="@string/txt_usuario"
+                android:drawablePadding="6dp"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/maron"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/emailRegistrar"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="370dp"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="6dp"
+                android:ems="10"
+                android:fontFamily="fantasy"
+                android:hint="@string/txt_correo"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/maron"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/contraseñaIngresar"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="430dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/key"
+                android:drawablePadding="6dp"
+                android:hint="@string/txt_contraseña"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:fontFamily="fantasy"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColorHint="@color/maron"/>
+
+            <Button
+                android:id="@+id/buttonIngresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="fantasy"
+                android:text="@string/bt_ingresar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textirRegistrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="565dp"
+                android:fontFamily="fantasy"
+                android:text="@string/txt_loginview"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonIngresar" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/botones1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSatelite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satélite"
+            android:textSize="12sp"
+            android:layout_marginLeft="280dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botones2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnMiUbicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="Mi Ubicación"
+            android:textSize="12sp"
+            android:layout_marginLeft="12dp" />
+
+        <Button
+            android:id="@+id/btnObtenerRuta"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="Obtener Ruta"
+            android:onClick="obtenerRuta"
+            android:textSize="12sp"
+            android:layout_marginLeft="12dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginStart="80dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnAuto"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="Ruta en Auto"
+                android:visibility="gone"
+                android:textSize="12sp" />
+            <Button
+                android:id="@+id/btnBicicleta"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="Ruta en Combi"
+                android:visibility="gone"
+                android:textSize="12sp" />
+            <Button
+                android:id="@+id/btnCaminar"
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:text="Ruta Caminando"
+                android:visibility="gone"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

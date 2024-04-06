@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Tienda</string>
+    <string name="nav_header_title">La Bodeguita</string>
+    <string name="nav_header_subtitle">Los mejores productos a tu alcance</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar Sesión</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_grocery">Abarrotes</string>
+    <string name="menu_library">Libreria</string>
+    <string name="menu_carrito">Carrito</string>
+    <string name="menu_registrar">Registrar</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_location">Nos ubicamos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="txt_home">Bienvenidos</string>
+    <string name="txt_bt_Ingresar">Ingresar</string>
+
+    <string name="txt_lista">Todos los Productos</string>
+    <string name="txt_abarrotes">Productos: Abarrotes</string>
+    <string name="txt_libreria">Productos: Libreria</string>
+
+    <string name="bt_registrar">Registrate</string>
+    <string name="txt_ingusuario">Ingrese Nombre</string>
+    <string name="txt_ingcorreo">Ingrese Correo </string>
+    <string name="txt_ingcontraseña">Ingrese Contraseña</string>
+    <string name="bt_ingresar">Ingresar</string>
+    <string name="txt_nuevo">Eres un usuario? Incie Sesion</string>
+
+    <string name="txt_bienvenida">Inicie Sesion</string>
+    <string name="txt_usuario"> Usuario</string>
+    <string name="txt_correo"> Correo </string>
+    <string name="txt_contraseña"> Contraseña</string>
+    <string name="txt_loginview">Aun no eres usuario? Registrate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_latitud">Latidud</string>
+    <string name="hint_longitud">Longitud</string>
+    <string name="txt_location">Nos ubicamos </string>
+</resources>

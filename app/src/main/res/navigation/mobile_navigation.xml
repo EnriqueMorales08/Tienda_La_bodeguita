@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tienda.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_grocery"
+        android:name="com.example.tienda.ui.grocery.GroceryFragment"
+        android:label="@string/menu_grocery"
+        tools:layout="@layout/fragment_grocery" />
+    <fragment
+        android:id="@+id/nav_library"
+        android:name="com.example.tienda.ui.library.LibraryFragment"
+        android:label="@string/menu_library"
+        tools:layout="@layout/fragment_library" />
+    <fragment
+        android:id="@+id/nav_carrito"
+        android:name="com.example.tienda.ui.carrito.CarritoFragment"
+        android:label="@string/menu_carrito"
+        tools:layout="@layout/fragment_carrito" />
+
+    <fragment
+        android:id="@+id/nav_registrar"
+        android:name="com.example.tienda.ui.Login.RegistrarFragment"
+        android:label="Registro de Datos"
+        tools:layout="@layout/fragment_registrar" />
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.tienda.ui.Location.MapsFragment"
+        android:label="@string/menu_location"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.tienda.ui.perfil.PerfilFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil"/>
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.tienda.ui.Login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+</navigation>

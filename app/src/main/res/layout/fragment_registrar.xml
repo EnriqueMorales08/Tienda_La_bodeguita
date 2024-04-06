@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Login.RegistrarFragment">
+
+    <LinearLayout
+        android:id="@+id/linearpart1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fragment_registrar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="255dp"
+                android:fontFamily="fantasy"
+                android:text="@string/bt_registrar"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498" />
+
+            <EditText
+                android:id="@+id/usuarioRegistrar"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="310dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/usuario"
+                android:fontFamily="fantasy"
+                android:hint="@string/txt_ingusuario"
+                android:drawablePadding="6dp"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/maron"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/emailRegistrar"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="370dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/email"
+                android:fontFamily="fantasy"
+                android:hint="@string/txt_ingcorreo"
+                android:drawablePadding="6dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/maron"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/contraseñaRegistrar"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="430dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/key"
+                android:fontFamily="fantasy"
+                android:hint="@string/txt_ingcontraseña"
+                android:drawablePadding="6dp"
+                android:inputType="textPassword"
+                android:textColorHint="@color/maron"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/buttonRegistrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="fantasy"
+                android:text="@string/bt_registrar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textirLoguear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="565dp"
+                android:fontFamily="fantasy"
+                android:text="@string/txt_nuevo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonIngresar" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
